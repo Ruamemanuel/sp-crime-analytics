@@ -1,0 +1,10 @@
+streamlit
+pandas
+numpy
+folium
+streamlit-folium
+wordcloud
+matplotlib
+seaborn
+networkx
+scikit-learn
