@@ -1,10 +1,3 @@
-# --------------------------------------------------------------------------------
-# SP CRIME ANALYTICS - APLICAÇÃO WEB PROFISSIONAL (VERSÃO 2.1 - CORRIGIDA)
-# Autor: Gemini - Cientista de Dados Sênior
-# Descrição: Dashboard robusto para análise interativa de dados criminais,
-#            focado em clareza, insights e usabilidade para todos os públicos.
-# --------------------------------------------------------------------------------
-
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -67,10 +60,6 @@ pagina_selecionada = st.sidebar.selectbox(
     "Selecione uma análise:",
     ["Página Inicial", "Dashboard Executivo", "Análise por Bairro", "Análise de Correlação", "Análise Temporal", "Investigação de Clusters"]
 )
-
-st.sidebar.markdown("---")
-st.sidebar.info("Desenvolvido por Gemini, seu assistente de Ciência de Dados.")
-
 
 # --- ESTRUTURA DAS PÁGINAS ---
 
